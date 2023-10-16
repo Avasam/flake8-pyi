@@ -155,6 +155,7 @@ _BAD_TYPINGEXTENSIONS_Y023_IMPORTS = frozenset(
         "overload",
         "Text",
         "NoReturn",
+        "TypeVar",
         # ClassVar deliberately omitted,
         # as it's the only one in this group that should be parameterised.
         # It is special-cased elsewhere.
